@@ -18,6 +18,10 @@ public class MAV extends UAV{
 		this.size = size;
 	}
 	
+	public MAV(UAV uav, String model, double size){
+		this(uav.getWeight(), uav.getPrice(), model, size);
+	}
+	
 	public MAV(MAV mav){
 		this(mav.weight, mav.price, mav.model, mav.size);
 	}
@@ -55,7 +59,7 @@ public class MAV extends UAV{
 			return true;
 		}
 		
-		if(o instanceof AgriculturalDrone) {
+		if(o instanceof MAV) {
 			MAV m = (MAV) o;
 			if(m.model == this.model && m.size == this.size) {
 				return true;
