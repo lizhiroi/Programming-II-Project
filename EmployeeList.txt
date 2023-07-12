@@ -1,0 +1,7 @@
+Lucy       100      11-10-2021      Manager
+Mike       101      12-6-2022       Assistant
+Richard    102      1-1-1900        Accountant
+Lily       103      9-12-2020       specialist
+Daisy       104      10-12-2019       Assistant
+Peter       105      8-10-2019       sales
+Ella       106      1-30-2018       sales
