@@ -1,15 +1,6 @@
 package package4;
 
-import package1.Airplane;
-
-//----------------------------------------------------
-//Project
-//Project A Part 1
-//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
-//----------------------------------------------------
-
-
-public class UAV extends Airplane {
+public class UAV {
 	protected double weight;
 	protected double price;
 

@@ -1,9 +1,4 @@
 package package1;
-//----------------------------------------------------
-//Project
-//Project A Part 1
-//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
-//----------------------------------------------------
 
 public class Airplane {
 	protected String band;

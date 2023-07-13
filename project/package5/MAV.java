@@ -2,12 +2,6 @@ package package5;
 
 import package4.UAV;
 
-//----------------------------------------------------
-//Project
-//Project A Part 1
-//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
-//----------------------------------------------------
-
 public class MAV extends UAV{
 	protected String model;
 	protected double size;
@@ -22,10 +16,6 @@ public class MAV extends UAV{
 		super();
 		this.model = model;
 		this.size = size;
-	}
-	
-	public MAV(UAV uav, String model, double size){
-		this(uav.getWeight(), uav.getPrice(), model, size);
 	}
 	
 	public MAV(MAV mav){
@@ -65,7 +55,7 @@ public class MAV extends UAV{
 			return true;
 		}
 		
-		if(o instanceof MAV) {
+		if(o instanceof AgriculturalDrone) {
 			MAV m = (MAV) o;
 			if(m.model == this.model && m.size == this.size) {
 				return true;

@@ -2,13 +2,6 @@ package package5;
 
 import package4.UAV;
 
-//----------------------------------------------------
-//Project
-//Project A Part 1
-//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
-//----------------------------------------------------
-
-
 public class AgriculturalDrone extends UAV{
 	protected String brand;
 	protected int carryCapacity;
@@ -21,12 +14,6 @@ public class AgriculturalDrone extends UAV{
 
 	public AgriculturalDrone(String brand, int carryCapacity){
 		super();
-		this.brand = brand;
-		this.carryCapacity = carryCapacity;
-	}
-	
-	public AgriculturalDrone(UAV uav, String brand, int carryCapacity){
-		super(uav);
 		this.brand = brand;
 		this.carryCapacity = carryCapacity;
 	}
