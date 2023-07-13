@@ -25,6 +25,12 @@ public class AgriculturalDrone extends UAV{
 		this.carryCapacity = carryCapacity;
 	}
 	
+	public AgriculturalDrone(UAV uav, String brand, int carryCapacity){
+		super(uav);
+		this.brand = brand;
+		this.carryCapacity = carryCapacity;
+	}
+	
 	public AgriculturalDrone(AgriculturalDrone ad){
 		this(ad.weight, ad.price, ad.brand, ad.carryCapacity);
 	}
