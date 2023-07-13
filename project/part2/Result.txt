@@ -1,0 +1,47 @@
+The result are here, the porgram works perfevtly fine on the copy flying objects from original array to the copied array.
+
+This is original flying objects array: 
+=========================================================================================
+Airplane, it is manufactured by Boeing, the price is 1000000.00$, horsepower is 2000hp
+Airplane, it is manufactured by Airbus, the price is 1500000.00$, horsepower is 2500hp
+Airplane, it is manufactured by Cessna, the price is 800000.00$, horsepower is 1800hp
+Helicopter is a kind of Airplane, it is manufactured by Bell, the price is 500000.00$, horsepower is 1500hp, it has 6 cylinders, the creation year is 2010, it can carry 8 passenger(s)
+Helicopter is a kind of Airplane, it is manufactured by Robinson, the price is 250000.00$, horsepower is 1800hp, it has 4 cylinders, the creation year is 2018, it can carry 4 passenger(s)
+Helicopter is a kind of Airplane, it is manufactured by Eurocopter, the price is 400000.00$, horsepower is 1500hp, it has 5 cylinders, the creation year is 2015, it can carry 6 passenger(s)
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by DJI, the price is 2000.00$, horsepower is 100hp, it has 4 cylinders, the creation year is 2022, it can carry 2 passenger(s), the max flying speed is 60km/h.
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by Yuneec, the price is 1800.00$, horsepower is 900hp, it has 6 cylinders, the creation year is 2020, it can carry 2 passenger(s), the max flying speed is 80km/h.
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by Autel Robotics, the price is 2500.00$, horsepower is 1200hp, it has 8 cylinders, the creation year is 2021, it can carry 4 passenger(s), the max flying speed is 100km/h.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by Yuneec, the price is 1500.00$, horsepower is 800hp, it has 8 cylinders, the creation year is 2015, it can carry 4 passenger(s), has 8 rotors.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by DJI, the price is 1200.00$, horsepower is 700hp, it has 6 cylinders, the creation year is 2019, it can carry 3 passenger(s), has 6 rotors.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by Freefly, the price is 1000.00$, horsepower is 600hp, it has 4 cylinders, the creation year is 2017, it can carry 2 passenger(s), has 4 rotors.
+UAV(Unmanned aerial vehicle / Drone), it weighs 10.5 pounds, the price is 500.00$
+UAV(Unmanned aerial vehicle / Drone), it weighs 8.2 pounds, the price is 600.00$
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 5.7 pounds, the price is 2000.00$ is manufactured by John Deere, it can carry up to 10 kg.
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 3.5 pounds, the price is 1500.00$ is manufactured by SenseFly, it can carry up to 6 kg.
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 2.1 pounds, the price is 1000.00$ is manufactured by DJI, it can carry up to 8 kg.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 2.3 pounds, the price is 1000.00$ is manufactured by Nano MAV, the size is 50.0mm.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 1.8 pounds, the price is 800.00$ is manufactured by MicroDrone, the size is 40.0mm.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 1.5 pounds, the price is 600.00$ is manufactured by PowerVision, the size is 30.0mm.
+
+This is copied flying objects array: 
+=========================================================================================
+Airplane, it is manufactured by Boeing, the price is 1000000.00$, horsepower is 2000hp
+Airplane, it is manufactured by Airbus, the price is 1500000.00$, horsepower is 2500hp
+Airplane, it is manufactured by Cessna, the price is 800000.00$, horsepower is 1800hp
+Helicopter is a kind of Airplane, it is manufactured by Bell, the price is 500000.00$, horsepower is 1500hp, it has 6 cylinders, the creation year is 2010, it can carry 8 passenger(s)
+Helicopter is a kind of Airplane, it is manufactured by Robinson, the price is 250000.00$, horsepower is 1800hp, it has 4 cylinders, the creation year is 2018, it can carry 4 passenger(s)
+Helicopter is a kind of Airplane, it is manufactured by Eurocopter, the price is 400000.00$, horsepower is 1500hp, it has 5 cylinders, the creation year is 2015, it can carry 6 passenger(s)
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by DJI, the price is 2000.00$, horsepower is 100hp, it has 4 cylinders, the creation year is 2022, it can carry 2 passenger(s), the max flying speed is 60km/h.
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by Yuneec, the price is 1800.00$, horsepower is 900hp, it has 6 cylinders, the creation year is 2020, it can carry 2 passenger(s), the max flying speed is 80km/h.
+Quadcopter is kind of Helicopter is a kind of Airplane, it is manufactured by Autel Robotics, the price is 2500.00$, horsepower is 1200hp, it has 8 cylinders, the creation year is 2021, it can carry 4 passenger(s), the max flying speed is 100km/h.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by Yuneec, the price is 1500.00$, horsepower is 800hp, it has 8 cylinders, the creation year is 2015, it can carry 4 passenger(s), has 8 rotors.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by DJI, the price is 1200.00$, horsepower is 700hp, it has 6 cylinders, the creation year is 2019, it can carry 3 passenger(s), has 6 rotors.
+Multirotor is kind of Helicopter is a kind of Airplane, it is manufactured by Freefly, the price is 1000.00$, horsepower is 600hp, it has 4 cylinders, the creation year is 2017, it can carry 2 passenger(s), has 4 rotors.
+UAV(Unmanned aerial vehicle / Drone), it weighs 10.5 pounds, the price is 500.00$
+UAV(Unmanned aerial vehicle / Drone), it weighs 8.2 pounds, the price is 600.00$
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 5.7 pounds, the price is 2000.00$ is manufactured by John Deere, it can carry up to 10 kg.
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 3.5 pounds, the price is 1500.00$ is manufactured by SenseFly, it can carry up to 6 kg.
+AgriculturalDrone is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 2.1 pounds, the price is 1000.00$ is manufactured by DJI, it can carry up to 8 kg.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 2.3 pounds, the price is 1000.00$ is manufactured by Nano MAV, the size is 50.0mm.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 1.8 pounds, the price is 800.00$ is manufactured by MicroDrone, the size is 40.0mm.
+MAV(Micro Air Vehicle) is a kind of UAV(Unmanned aerial vehicle / Drone), it weighs 1.5 pounds, the price is 600.00$ is manufactured by PowerVision, the size is 30.0mm.

@@ -1,8 +1,6 @@
 package package4;
 
-import package1.Airplane;
-
-public class UAV extends Airplane {
+public class UAV {
 	protected double weight;
 	protected double price;
 
