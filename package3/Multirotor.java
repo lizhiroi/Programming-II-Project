@@ -2,6 +2,12 @@ package package3;
 
 import package2.Helicopter;
 
+//----------------------------------------------------
+//Project
+//Project A Part 1
+//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
+//----------------------------------------------------
+
 public class Multirotor extends Helicopter{
 	protected int rotorsNumber;
 

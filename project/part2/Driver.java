@@ -1,5 +1,6 @@
 package project.part2;
 
+
 import package1.Airplane;
 import package2.Helicopter;
 import package2.Quadcopter;
@@ -8,7 +9,13 @@ import package4.UAV;
 import package5.AgriculturalDrone;
 import package5.MAV;
 
+//----------------------------------------------------
+//Project
+//Project A Part 2
+//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
+//----------------------------------------------------
 public class Driver {
+	
 	// create copyFlyingObjects array method
 	public static <T extends Airplane> Airplane[] copyFlyingObjects(T[] flyingObjects) {
 

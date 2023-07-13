@@ -2,6 +2,12 @@ package package5;
 
 import package4.UAV;
 
+//----------------------------------------------------
+//Project
+//Project A Part 1
+//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
+//----------------------------------------------------
+
 public class MAV extends UAV{
 	protected String model;
 	protected double size;

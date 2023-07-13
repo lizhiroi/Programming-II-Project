@@ -7,7 +7,11 @@ import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-
+//----------------------------------------------------
+//Project
+//Project B
+//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
+//----------------------------------------------------
 
 public class Company {
 
@@ -16,7 +20,8 @@ public class Company {
 		int option = 0, month, day, year, id;
 		String name, position;
 		Scanner kb = new Scanner(System.in);
-
+		
+		// Create menu with the options
 		System.out.println("Hello, please choose from the following options :");
 		System.out.println("1: Search all employees information hired after a date");
 		System.out.println("2: Write employee information to a file");
@@ -30,7 +35,8 @@ public class Company {
 		}
 
 		if (option == 1) {
-
+			// Search employees hired after a specific date
+			
 			System.out.print("Please enter the month of a particular date: ");
 			month = kb.nextInt();
 			System.out.print("Please enter the day of a particular date: ");
@@ -45,6 +51,8 @@ public class Company {
 			}
 
 		} else if (option == 2) {
+			// Write employee information to a file
+			
 			System.out.print("Please enter the name of the employee: ");
 			name = kb.next();
 			System.out.print("Please enter the ID of the employee: ");
@@ -60,7 +68,9 @@ public class Company {
 			Employee emp = new Employee(name, id, new Date(month, day, year), position);
 			writeToFile(emp);
 
-		} else if (option == 3) {
+		} else if (option == 3) {			
+			// Read employee information from a file
+			
 			readFromFile();
 		}
 

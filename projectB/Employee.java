@@ -1,5 +1,10 @@
 package projectB;
 
+//----------------------------------------------------
+//Project
+//Project B
+//Written by : Linlin Xie 2343895, Qingjun Bao 2398022, Zhi Li 0645750, 
+//----------------------------------------------------
 public class Employee {
 
 	private String name;
